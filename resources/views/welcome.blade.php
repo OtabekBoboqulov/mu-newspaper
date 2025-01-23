@@ -41,7 +41,7 @@
 <!-- Posts Section -->
 <section class="container mx-auto py-20">
     <div class="text-center mb-12">
-        <h2 class="text-4xl font-bold">Latest Posts from Students</h2>
+        <h2 class="text-4xl font-bold">Popular Posts</h2>
     </div>
     <div class="flex flex-wrap -mx-4">
         <!-- Example of a Post Card -->
