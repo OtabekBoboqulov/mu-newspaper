@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MU Newspaper - Welcome</title>
+    <title>MU Blog - Welcome</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <!-- Standard favicon -->
     <link rel="icon" href="{{ asset('favicon.png') }}" type="image/x-icon">
@@ -19,7 +19,7 @@
 <!-- Banner Section -->
 <header class="bg-blue-600 text-white">
     <div class="container mx-auto flex flex-col items-center py-20">
-        <h1 class="text-5xl font-bold mb-4">Welcome to MU Newspaper</h1>
+        <h1 class="text-5xl font-bold mb-4">Welcome to MU Blog</h1>
         <p class="text-xl mb-8">Your daily source for the latest news and stories.</p>
         <div class="flex space-x-4">
             @guest
@@ -75,7 +75,7 @@
 <!-- Features Section -->
 <section class="container mx-auto py-20">
     <div class="text-center mb-12">
-        <h2 class="text-4xl font-bold">Why Choose MU Newspaper?</h2>
+        <h2 class="text-4xl font-bold">Why Choose MU Blog?</h2>
         <p class="text-gray-600 mt-4">Discover our unique features and offerings.</p>
     </div>
     <div class="flex flex-wrap justify-center">
@@ -113,7 +113,7 @@
 <!-- Footer -->
 <footer class="bg-gray-800 text-white py-6">
     <div class="container mx-auto text-center">
-        <p>&copy; 2025 MU Newspaper. All rights reserved.</p>
+        <p>&copy; 2025 MU Blog. All rights reserved.</p>
         <div class="mt-4 space-x-4">
             <x-footer-link href="https://t.me/millatumidiuni">Telegram</x-footer-link>
             <x-footer-link href="https://www.instagram.com/millatumidi_university">Instagram</x-footer-link>

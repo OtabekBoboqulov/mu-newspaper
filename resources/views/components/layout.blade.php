@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MU Newspaper</title>
+    <title>MU Blog</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <!-- Standard favicon -->
     <link rel="icon" href="{{ asset('favicon.png') }}" type="image/x-icon">
@@ -22,7 +22,7 @@
     <div class="flex justify-between items-center">
         <a href="/" class="flex items-center">
             <img src="{{ asset('favicon.png') }}" alt="Site Logo" class="w-10 h-10 mr-2">
-            <span class="text-xl font-semibold">MU newspaper</span>
+            <span class="text-xl font-semibold">MU blog</span>
         </a>
         <div class="hidden md:flex items-center space-x-8 text-gray-700">
             <ul class="flex space-x-8">
