@@ -6,7 +6,7 @@
         <h3 class="text-lg font-semibold mb-2">{{ $post->title }}</h3>
         <p class="text-gray-600">{!! Str::limit($post->body, 100)  !!}</p>
         <div class="mt-4 text-sm text-gray-500">
-            <p>By: {{ $post->author->username }}</p>
+            <p>By: {{ $post->author->username }} @can('admin', Auth::user())({{ $post->author->email }})@endcan</p>
             <p>Published on: {{ $post->created_at->format('j F Y') }}</p>
             <p class="flex items-center">
                 <span class="flex items-center gap-1">
